@@ -1,0 +1,132 @@
+.nav-menu nav ul a{
+    float: right;
+    font-size:30px;
+    color:rgb(230, 17, 17);
+    background-color: aqua;
+    border-radius: 20px;
+    text-decoration: none;
+}
+nav ul a:hover{
+    background-color: purple;
+    color:orange;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.img{
+    padding: 250px;
+    background-image: url("sp.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p{
+    color:rgb(184, 212, 24)
+}
+.para p{
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    margin: 50px
+}
+.image1 img, .image2 img{
+    height: 200px;
+    width: 200px;
+    border-radius :50%;
+}
+.text1, .text2{
+    margin-left: 20px ;
+    margin-right: 10px
+}
+.text1 h1, .text2 h1{
+    color:rgb(12, 219, 40);
+
+}
+.text1 p, .text2 p{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+form textarea{
+    background-color: blueviolet;
+}
+form{
+    text-align: center;
+}
+.contact{
+    padding-top: 80px;
+    display : flex;
+    margin-left: 100px;
+    font-size: large;
+
+}
+.text{
+    line-height: 20px;
+    font-size: 30px;
+    line-height:50px;
+}
+.form{
+    margin-left: 200px;
+    
+}
+.form input{
+    width: 50vh;
+    border: none;
+    border-bottom : 2px solid yellow;
+    height: 50px;
+    
+    
+}
+.form label{
+    font-size: 50px;
+}
+.form textarea{
+    width: 500px;
+    height: 250px;
+    background-color:rgb(138, 21, 85);
+    border-radius:20px;
+    margin-bottom:10px;
+    color :aqua;
+    font-size: 25px;
+
+}
+#button-submit{
+    height: 50px;
+    width: 100px;
+    color: rgb(26, 20, 20);
+    border-radius: 20px;
+    background-color: yellow;
+    margin-bottom:15px;
+    cursor: pointer;
+
+}
+#button-submit:hover{
+    background-color: pink;
+}
+.footer{
+    background-color: rgb(107, 68, 9);
+    height: 500px;
+    font-size: 30px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer ul li{
+    list-style-type:none;
+    padding-top:30px;
+}
+.footer{
+    display: flex;
+}
+.newslater form{
+    padding-left: 100px;
+
+}
+.newslater form input{
+    border : none;
+    border-bottom: 2px solid blue;
+    width: 40vh;
+    background-color: rgb(107, 68, 9);
+    color:yellow;
+    font-size: 20px;
+    height: 30px;
+}
